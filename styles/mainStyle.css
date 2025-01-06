@@ -37,9 +37,9 @@
 .logo-container {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Makes the container circular */
-    overflow: hidden; /* Ensures the logo stays within the circle */
-    border: 3px solid #0095FF; /* Optional border */
+    border-radius: 50%; 
+    overflow: hidden; 
+    border: 3px solid #0095FF; 
     display: flex   ;
     justify-content: center;
     align-items: center;
@@ -48,11 +48,10 @@
 }
 
 .logo-container img {
-    width: 100%; /* Ensures the image fills the container */
-    height: 100%; /* Maintains aspect ratio inside the circle */
-    object-fit: cover; /* Ensures the image scales properly */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
-
 body{
     background-image: url('../someImages/bgMementoMori.png');
     background-position: center;
@@ -63,8 +62,8 @@ body{
     font-family: 'JetBrains Mono', monospace;
 
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center;   /* Vertical centering */
+    justify-content: center; 
+    align-items: center;   
 }
 
 .nameMain {
@@ -76,7 +75,7 @@ body{
 }
 
 .nickname {
-    color: #009DFF; /* Cyan color for username */
+    color: #009DFF; 
     font-size: 25px;
 }
 
@@ -103,19 +102,19 @@ body{
 }
 
 .button.github {
-    background-color: #444444; /* Dark gray */
+    background-color: #444444; 
 }
 
 .button.discord {
-    background-color: #3f0fff; /* Blue for Discord */
+    background-color: #3f0fff; 
 }
 
 .button.steam {
-    background-color: #000000; /* Black for Steam */
+    background-color: #000000; 
 }
 
 .button:hover {
-    opacity: 0.9; /* Slight hover effect */
+    opacity: 0.9; 
 }
 
 .shit{
