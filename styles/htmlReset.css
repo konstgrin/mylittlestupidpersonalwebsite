@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default button and input styles */
+button, input {
+    border: none;
+    background: none;
+    font: inherit;
+}
+
+/* Normalize tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-BoldItalic.eot');
+    src: local('ITC Bookman Std Bold Italic'), local('BookmanStd-BoldItalic'),
+        url('BookmanStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-BoldItalic.woff2') format('woff2'),
+        url('BookmanStd-BoldItalic.woff') format('woff'),
+        url('BookmanStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-DemiItalic.eot');
+    src: local('ITC Bookman Std Demi Italic'), local('BookmanStd-DemiItalic'),
+        url('BookmanStd-DemiItalic.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-DemiItalic.woff2') format('woff2'),
+        url('BookmanStd-DemiItalic.woff') format('woff'),
+        url('BookmanStd-DemiItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-MediumItalic.eot');
+    src: local('ITC Bookman Std Medium Italic'), local('BookmanStd-MediumItalic'),
+        url('BookmanStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-MediumItalic.woff2') format('woff2'),
+        url('BookmanStd-MediumItalic.woff') format('woff'),
+        url('BookmanStd-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-Bold.eot');
+    src: local('ITC Bookman Std Bold'), local('BookmanStd-Bold'),
+        url('BookmanStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-Bold.woff2') format('woff2'),
+        url('BookmanStd-Bold.woff') format('woff'),
+        url('BookmanStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-Medium.eot');
+    src: local('ITC Bookman Std Medium'), local('BookmanStd-Medium'),
+        url('BookmanStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-Medium.woff2') format('woff2'),
+        url('BookmanStd-Medium.woff') format('woff'),
+        url('BookmanStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-LightItalic.eot');
+    src: local('ITC Bookman Std Light Italic'), local('BookmanStd-LightItalic'),
+        url('BookmanStd-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-LightItalic.woff2') format('woff2'),
+        url('BookmanStd-LightItalic.woff') format('woff'),
+        url('BookmanStd-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-Light.eot');
+    src: local('ITC Bookman Std Light'), local('BookmanStd-Light'),
+        url('BookmanStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-Light.woff2') format('woff2'),
+        url('BookmanStd-Light.woff') format('woff'),
+        url('BookmanStd-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Bookman Std';
+    src: url('BookmanStd-Demi.eot');
+    src: local('ITC Bookman Std Demi'), local('BookmanStd-Demi'),
+        url('BookmanStd-Demi.eot?#iefix') format('embedded-opentype'),
+        url('BookmanStd-Demi.woff2') format('woff2'),
+        url('BookmanStd-Demi.woff') format('woff'),
+        url('BookmanStd-Demi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
