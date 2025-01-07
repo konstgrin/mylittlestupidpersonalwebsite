@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
 @import url("stylesheet.css");
 
+*{
+    transition: width 0.5s ease, height 0.5s ease, position 0.5s ease, top 0.5s ease, left 0.5s ease;
+}
+
 .mainPanel{
     width: 440px;
     height: 600px;
@@ -13,6 +17,12 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    z-index: 1;
+}
+
+.newSize{
+    width: 740px;
+    height: 300px;
 }
 
 .snowflake {
@@ -21,6 +31,7 @@
     font-size: 1.5rem;
     user-select: none;
     animation: fall 5s linear infinite;
+    z-index: 0;
 }
 
 @keyframes fall {
@@ -40,7 +51,7 @@
     border-radius: 50%; 
     overflow: hidden; 
     border: 3px solid #0095FF; 
-    display: flex   ;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
@@ -52,6 +63,24 @@
     height: 100%; 
     object-fit: cover; 
 }
+
+.smthHuh{
+    border: 2px solid white;
+    background-color: #292929;
+    border-radius: 20px;
+    padding: 4px;
+    padding-top: 0px;
+}
+
+.newLogo-container{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+}
+
 body{
     background-image: url('../someImages/bgMementoMori.png');
     background-position: center;
@@ -124,9 +153,48 @@ body{
     font-family: 'ITC Bookman', monospace;
     font-style: italic;
 }
+
 .microShit{
     color: #ffffff;
     font-size: 15px;
     font-family: 'ITC Bookman', monospace;
     font-style: italic;
+}
+
+.infoButton{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #0095FF;
+    color: white;
+    font-family: 'ITC Bookman', monospace;
+    font-style: italic;
+
+    border: 2px solid rgb(210, 210, 210);
+    border-radius: 10px;
+}
+
+.infoButton:hover{
+    background-color: #009dff;
+}
+
+.newButton{
+    left: 93.5%;
+    right: 10px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.newText{
+    font-size: 20px;
+    width: 93%;
+    word-wrap: break-word;
+    color: #ffffff;
+    position: absolute;
+    top: 130px;
+    left: 25px;
 }
